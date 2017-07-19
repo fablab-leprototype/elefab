@@ -70,7 +70,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('/images/homepage-fablab.png');
+  background-image: url('/img/homepage-fablab.png');
   text-align: center;
   color: black;
 }
