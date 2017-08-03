@@ -1,3 +1,13 @@
+# Testing using docker
+
+Launch:
+
+```
+$ docker run -it --rm -v `pwd`:/usr/share/nginx/html -p8080:80 nginx:1.13.3
+```
+
+Then visit [localhost:8080](http://localhost:8080/)
+
 # [Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
 
 [Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
