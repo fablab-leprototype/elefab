@@ -403,5 +403,11 @@
     <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
     <script src="js/leaflet-providers.js"></script>
     <script src="js/map.js"></script>
+    <script>
+        $.getJSON('http://manager.elefab.org/api/events?page=1', function(data) {
+    console.log("data : ");
+            console.log(data);
+});
+    </script>
 </body>
 </html>
