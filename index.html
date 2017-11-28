@@ -437,11 +437,10 @@
                         var htmloutput = "<div class=\"col-lg-5 col-md-8 text-left\">\r\n" + 
           "                        <div class=\"service-box\">\r\n" + 
           "                            <img src=\"https://manager.elefab.org/"+event.event_image_small+"\">\r\n" + 
-          "                            <h3><a href=\""+event.url+"\">"+event.title+"</a></h3>\r\n" + 
+          "                            <h3><a href=\"https://manager.elefab.org/#!/events/"+event.id+"\">"+event.title+"</a></h3>\r\n" + 
           "                            <div class=\"text-muted\">"+event.description+"</div>\r\n" + 
           "                        </div>\r\n" + 
           "                    </div>";
-                                                console.log(htmloutput);
 
                           $("#eventContainer").append(htmloutput);
                     });
