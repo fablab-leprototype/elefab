@@ -1,0 +1,37 @@
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+/** clickable div w/ background images */
+
+a.clickable-elem:hover {
+  text-decoration: none;
+}
+
+a.clickable-elem {
+}
+
+div.clickable-elem-container:hover {
+  opacity: 1;
+}
+
+div.clickable-elem-container {
+  opacity: 0.6;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+
+/** footer */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
