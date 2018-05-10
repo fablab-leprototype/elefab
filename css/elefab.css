@@ -2,6 +2,10 @@ body {
   margin-bottom: 60px; /* Margin bottom by footer height */
 }
 
+.bg-elefab {
+  background-color: #e46464;
+}
+
 /** clickable div w/ background images */
 
 a.clickable-elem:hover {
