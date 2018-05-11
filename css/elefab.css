@@ -8,7 +8,7 @@ body {
 
 /** clickable div w/ background images */
 
-a.clickable-elem:hover {
+a.clickable-elem:hover, div.service-box > a:hover {
   text-decoration: none;
 }
 
