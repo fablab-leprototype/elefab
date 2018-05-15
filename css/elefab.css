@@ -2,6 +2,16 @@ body {
   margin-bottom: 60px; /* Margin bottom by footer height */
 }
 
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 33%;
+    height: 100%;
+    background-color: #ccc; 
+    opacity: 0.3;
+}
+
 .bg-elefab {
   background-color: #e46464;
 }
