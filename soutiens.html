@@ -12,6 +12,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
     <link href="css/elefab.css" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -20,95 +21,84 @@
   </head>
 
   <body>
+    <div id="background"></div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-elefab">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-item nav-link text-light" href="index.html">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-item nav-link text-light" href="presentation.html">Présentations et services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-item nav-link text-light" href="idees.html">Idées à Crozets</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-item nav-link text-light" href="realisations.html">Réalisations</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-item nav-link text-light" href="local.html">Local</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-item nav-link active text-black" href="soutiens.html">Soutiens</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-item nav-link text-light" href="actualites.html">Actualités</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-item nav-link text-light" href="contacts.html">Contacts</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="container-fluid w-75">
 
-    <div class="container-fluid">
-
-      <div class="row m-5">
+      <div class="row my-5 b-5">
+        <div class="col-md-2">
+          <img src="./img/elefab.png" alt="logo" />
+        </div>
         <div class="col-md-8 offset-md-2">
-          <h1>Soutiens</h1>
-          <p class="text-muted">Merci à nos sponsors ci-dessous pour leur engagement dans notre projet:</p>
-        </div>
+          <h1><a href="./index.html" class="text-danger">Accueil</a> > Nos soutiens</h1>
+	  <p class="text-muted">Nous tenons à remercier nos sponsors pour leur engagement à nos cotés dans le projet.</p>
+	</div>
       </div>
 
-      <div class="row m-5 p-5">
-        <div class="col">
-          <a href="https://www.auvergnerhonealpes.fr/">
-            <img width="220" src="./img/logo_part_aura.png" alt="Region Auvergne-Rhone-ALpes" />
-          </a>
-        </div>
-        <div class="col">
-          <a href="https://www.owenscorning.com/">
-            <img src="./img/owenscorning.png" alt="owens corning" />
-          </a>
-        </div>
-        <div class="col">
-          <a href="http://www.banque-de-savoie.fr/portailinternet/Pages/default.aspx">
-            <img src="./img/banque-savoie.png" alt="Banque de Savoie" />
-          </a>
-        </div>
-        <div class="col">
-          <a href="http://www.chambery.fr/">
-            <img src="./img/logo_chambery.png" alt="Ville de Chambéry" />
-          </a>
-        </div>
-        <div class="col">
-          <a href="http://www.adisesactive.fr/">
-            <img src="./img/adises.png" alt="Adises Active" />
-          </a>
-        </div>
-        <div class="col">
-          <a href="https://www.bollhoff.fr/">
-            <img src="./img/logo_bollhoff.png" alt="Bollhoff" />
-          </a>
-        </div>
-        <div class="col">
-          <a href="http://www.chambery-bauges-metropole.fr/">
-            <img src="./img/logo_cby_metropole.png" alt="Chambéry Métropole" />
-          </a>
-        </div>
-      </div>
+      <div class="row">
+        <div class="col-md-4 offset-md-4">
 
-    </div>
+          <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-50 mx-auto" src="./img/logo_part_aura.png" alt="Région Auvergne-Rhône-Alpes">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-50 mx-auto" src="./img/owenscorning.png" alt="Owens Corning">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-50 mx-auto" src="./img/banque-savoie.png" alt="Banque de Savoie">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-50 mx-auto" src="./img/logo_chambery.png" alt="Ville de Chambéry">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-50 mx-auto" src="./img/adises.png" alt="Adises Active">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-50 mx-auto" src="./img/logo_bollhoff.png" alt="Bollhoff">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-50 mx-auto" src="./img/logo_cby_metropole.png" alt="Chambéry Métropole">
+              </div>
+            </div>
+            <a class="carousel-control-prev text-danger" href="#carouselIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next text-danger" href="#carouselIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon text-danger" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div> 
 
-    <footer class="footer">
-      <div class="text-right bg-elefab pr-3">
-        <span class="text-white">© 2018 · Association Fablab - Le prototype</span>
-      </div>
-    </footer>
+    </div> <!-- container -->
+
+      <footer class="footer">
+        <div class="text-right bg-elefab pr-3">
+  	<p class="text-white align-middle font-weight-bold">
+            <a class="btn" href="https://twitter.com/fablabchambery" target="_blank">
+                  <i class="fa fa-2x fa-twitter text-light mr-2"> </i>
+            </a>
+            <a class="btn" href="https://www.facebook.com/FablabChambery" target="_blank">
+                  <i class="fa fa-2x fa-facebook-square text-light mr-2"> </i>
+            </a>
+            <a class="btn" href="https://plus.google.com/communities/102420477003488972725" target="_blank">
+                  <i class="fa fa-2x fa-google-plus text-light mr-2"> </i>
+            </a>
+            <a class="btn" href="https://www.instagram.com/elefab73/" target="_blank">
+                  <i class="fa fa-2x fa-instagram text-light mr-2"> </i>
+            </a>
+            <a class="btn" href="https://www.youtube.com/channel/UCY1m-bPCqMAcFBHnKCXkp4g" target="_blank">
+                  <i class="fa fa-2x fa-youtube text-light mr-2"> </i>
+            </a>
+            © 2018 · Association Fablab - Le prototype
+  	</p>
+        </div>
+      </footer>
+
 
   </body>
   <!-- jQuery -->
