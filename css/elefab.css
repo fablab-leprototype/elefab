@@ -9,9 +9,16 @@ body {
     left: 0;
     width: 33%;
     height: 100%;
-    //background-color: #ccc; 
     background-image: url('../img/bg.png');
     opacity: 0.05;
+}
+
+.header {
+  margin: 0;
+  width: 200px;
+  top: 0px;
+  z-index: 255;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .bg-elefab {
